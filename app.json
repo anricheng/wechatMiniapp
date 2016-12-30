@@ -1,0 +1,14 @@
+{
+  "pages":[
+     "pages/ThirdPage/ThirdPage",
+     "pages/secondpage/secondpage",
+    "pages/index/index"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "Hi_Demo",
+    "navigationBarTextStyle":"red"
+  }
+}

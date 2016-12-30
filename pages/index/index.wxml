@@ -1,0 +1,17 @@
+<!-- wxml 搭建UI 骨架 -->
+<view class="container">
+
+<!-- rpx 是不同手机上的逻辑分辨率 -->
+	<image class = "user-avatar" src="/demo.jpg" />
+
+<!-- 用text包裹的文字才可以被长按选中 -->
+
+	<text class = "user-name"> <text style="color:red">Hello,</text>Lemo</text>
+
+	<view class= "click-container">
+
+		<text class= "click">开始</text>
+
+	</view>
+
+</view>

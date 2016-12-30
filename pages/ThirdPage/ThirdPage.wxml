@@ -1,0 +1,6 @@
+<view>
+  <view>
+    <button bindtap="add">click me!</button>
+   <text>{{text}}</text>
+  </view>
+</view>
