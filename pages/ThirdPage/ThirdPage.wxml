@@ -1,6 +1,19 @@
-<view>
-  <view>
-    <button bindtap="add">click me!</button>
-   <text>{{text}}</text>
-  </view>
+<!--input.wxml-->
+<view >
+  <input bindtap="onUsernameInput" placeholder="用户名" auto-focus/>
 </view>
+<view >
+  <input placeholder="密码" bindtap="onPasswordInput" auto-focus />
+</view>
+<view>
+  <button bindtap="onLogin">登录</button>
+</view>
+<view>
+  <text>{{lighthouseToken}}</text>
+</view>
+
+<view>
+  <text>{{authToken}}</text>
+</view>
+
+  
